@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Memberikan nama bebas untuk font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space between title and nav */
+    align-items: center; /* Center items vertically */
+    background: #333;
+    color: #fff;
+    padding: 20px 100px; /* Add some padding */
+    position: sticky;
+    top: 0; /* Menentukan jarak dari atas */
+            z-index: 1000; /* Agar header tetap di atas konten lainnya */
+            transition: padding 0.3s, background-color 0.3s;
+}
+
+.logo img {
+    width: 135px; /* Atur lebar logo sesuai kebutuhan */
+    height: auto; /* Menjaga rasio aspek logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    padding: 7px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #695252;
+  
+}
+
+section {
+    height: 100vh; /* Mengatur tinggi section menjadi 100% dari viewport */
+    display: flex; /* Menggunakan flexbox untuk memusatkan konten */
+    flex-direction: column; /* Mengatur konten dalam kolom */
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+}
+
+#Lomba-Lomba {
+    background-image: url('10.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    color: white; /* Mengatur warna teks agar kontras dengan gambar */  
+}
+
+#OrganisasiKepanitiaan {
+    background-image: url('9.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    color: white; /* Mengatur warna teks agar kontras dengan gambar */  
+}
+
+#kegiatannoutdoor {
+    background-image: url('Black\ White\ Bold\ Creative\ Portfolio\ Presentation\ \(5\).png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    color: white; /* Mengatur warna teks agar kontras dengan gambar */  
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    text-decoration: none;
+}
